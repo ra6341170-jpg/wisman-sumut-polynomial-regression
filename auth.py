@@ -168,12 +168,3 @@ def render_auth_page():
                             st.error(msg, icon="🚫")
                 else:
                     st.warning("Semua kolom wajib diisi.", icon="⚠️")
-
-    # ── Footer ─────────────────────────────────────────────────────────
-    st.markdown(
-        "<p class='auth-footer'>"
-        "© 2026 · Penelitian Ilmiah · Universitas<br>"
-        "Data: BPS Provinsi Sumatera Utara"
-        "</p>",
-        unsafe_allow_html=True,
-    )
